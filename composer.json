@@ -1,0 +1,27 @@
+{
+   "name": "uk/core",
+   "type": "library",
+   "description": "The UniKado library core.",
+   "support": {
+      "issues": "https://github.com/UniKado/UK.Core/issues",
+      "source": "https://github.com/UniKado/UK.Core"
+   },
+   "license": "LGPLv3",
+   "authors": [
+      {
+         "name": "UniKado",
+         "email": "unikado+pubcode@protonmail.com"
+      }
+   ],
+   "require": {
+      "php": ">=7.0"
+   },
+   "autoload": {
+      "files": [
+         "src/UK/global.functions.php"
+      ],
+      "psr-0": {
+         "UK\\": "src/"
+      }
+   }
+}
